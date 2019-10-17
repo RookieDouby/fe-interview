@@ -1,12 +1,15 @@
 <template>
   <div class="home">
     <div><CircleLoading /></div>
+    <div><BubbleLoading /></div>
+    <div><TeacupLoading /></div>
   </div>
 </template>
 
 <script>
 import CircleLoading from './CircleLoading';
-import BubbleLoading from './CircleLoading';
+import BubbleLoading from './BubbleLoading';
+import TeacupLoading from './TeacupLoading';
 
 export default {
   name: 'HelloWorld',
@@ -14,7 +17,9 @@ export default {
     msg: String
   },
   components: {
-    CircleLoading
+    CircleLoading,
+    BubbleLoading,
+    TeacupLoading
   }
 }
 </script>

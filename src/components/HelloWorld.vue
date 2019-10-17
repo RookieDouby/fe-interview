@@ -6,6 +6,7 @@
 
 <script>
 import CircleLoading from './CircleLoading';
+import BubbleLoading from './CircleLoading';
 
 export default {
   name: 'HelloWorld',

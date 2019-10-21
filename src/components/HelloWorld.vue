@@ -3,6 +3,7 @@
     <div><CircleLoading /></div>
     <div><BubbleLoading /></div>
     <div><TeacupLoading /></div>
+    <div><SwitchMenu /></div>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import CircleLoading from './CircleLoading';
 import BubbleLoading from './BubbleLoading';
 import TeacupLoading from './TeacupLoading';
+import SwitchMenu from './SwitchMenu';  //菜单切换效果
 
 export default {
   name: 'HelloWorld',
@@ -19,7 +21,8 @@ export default {
   components: {
     CircleLoading,
     BubbleLoading,
-    TeacupLoading
+    TeacupLoading,
+    SwitchMenu
   }
 }
 </script>
@@ -28,7 +31,7 @@ export default {
 <style lang="scss" scoped>
   .home {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 100vh;
     justify-content: center;
